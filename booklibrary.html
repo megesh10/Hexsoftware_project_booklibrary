@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📚 My Book Library</h1>
+
+  <!-- Search bar -->
+  <input type="text" id="searchBox" placeholder="Search for a book...">
+
+  <!-- Book categories -->
+  <select id="categoryFilter">
+    <option value="all">All Categories</option>
+    <option value="fiction">Fiction</option>
+    <option value="nonfiction">Non-Fiction</option>
+    <option value="science">Science</option>
+    <option value="history">History</option>
+  </select>
+
+  <!-- Book list -->
+  <div id="bookList"></div>
+
+  <!-- Borrow history -->
+  <h2>Borrow History</h2>
+  <ul id="borrowHistory"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
